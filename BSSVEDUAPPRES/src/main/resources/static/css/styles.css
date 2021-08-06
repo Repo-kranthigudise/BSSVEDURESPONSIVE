@@ -1,0 +1,278 @@
+/* common css*/
+.padding_margin_zero{
+    padding: 0;
+    margin: 0;
+}
+.text_align_left{
+    text-align: left;
+}
+/* main heder*/
+.header_log{
+    max-width: 100px;
+    margin: auto;
+}
+.main_Header_section{
+background-color: rgb(230, 175, 11);
+padding: 16px;
+}
+.head_main_title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.head_caption{
+    font-size: 18px;;
+}
+.head_link{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.nav_section{
+    background: #005486;
+    padding: 8px;
+}
+.nav_section .nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+/*left menu css*/
+.left_menu_section{
+    background: #236d7f;
+    color: white;
+    height: 100%;
+}
+.left_nav_section{
+padding: 0;
+width: 100%;
+}
+.left_nav_section .navbar-nav {
+  width: 100%;
+    
+}
+.left_nav_section .nav-item .nav-link{
+    color: white;
+}
+.left_nav_section .nav-item{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+.site_text{
+    text-decoration: underline;
+}
+.left_menu_footer_text{
+padding: 16px;
+}
+/*main section*/
+.marquee_section{
+    background: rgb(26, 141, 169);
+    color: white;
+}
+.home_info_section{
+    background: #e35b12;
+    padding: 18px;
+    margin: 12px 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.info_timing{
+    color: white;
+}
+.right_main_section{
+    background: #d4c5de;
+    height: 100%;
+}
+.home_note{
+    text-align: left;
+    padding: 16px;
+    font-size: 12px;
+}
+/*footer css*/
+.footer_text{
+    font-size: 12px;
+    text-align: left;
+}
+.footer{
+    background: #005486;  
+    color: white;
+    padding: 8px;
+}
+/*table css*/
+.table_main_heading{
+    background-color: #e35b12;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.course{
+text-align: center;
+width: 100%;
+}
+.tg{
+    text-align: center;
+    width: 100%;
+}
+.table_section{
+    padding:16px;
+}
+.table_section table, th, td {
+    border: 1px solid black;
+  }
+  .table_section th, td {
+      padding: 8px;
+  }
+  .all_course_heading{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .table_sub_heading {
+    background-color: #e35b12;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+/*contact us*/
+.contact_title{
+    text-align: center;
+    color: #212529;
+    font-size: 28px;
+    font-weight: 700;
+}
+.contact_us_main{
+    padding: 16px;
+}
+.margin_cources{
+    margin: 12px 0 12px;
+}
+.contact_header_caption{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+}
+.contact_text_body{
+    text-align: justify;
+}
+.contact_us_thankyou{
+    text-align: center;
+    background: #296b39;
+    color: white;
+    padding: 8px 0;
+}
+.contact_address{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.contact_address_details{
+    border: 1px solid;
+    padding: 16px;
+}
+.address_info_title{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.location_info{
+    text-transform: uppercase;
+}
+
+/*left bar certificates*/
+.fake_certificates_body{
+    padding: 16px;
+}
+.certificate-btn{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.cerification_nav .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff;
+    background: #005486;
+    border-radius: 0;
+}
+.cerification_nav .nav-pills .nav-item a{
+    color: #005486;
+}
+.cerification_nav ul{
+    border: 1px solid #005486;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .main_Header_section {
+        padding: 8px;
+    }
+    .head_main_title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .head_caption {
+        font-size: 16px;
+    }
+    .head_link {
+        font-size: 10px;
+    }
+    .nav_section .nav-link{
+     font-size: 12px;
+     padding: .3rem .5rem;
+    }
+    .marquee_section {
+        font-size: 14px;
+    }
+    .left_nav_section .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .home_info_section {
+        font-size: 12px;
+    }
+    .left_nav_section .nav-item {
+        padding: 4px;
+    }
+    .left_menu_footer_text {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .img_section {
+        max-width: 80%;
+    }
+    .home_note {
+font-size: 10px;
+    }
+    .course{
+        font-size: 10px;
+    }
+    .tg{
+        font-size: 10px;
+    }
+    .table_section th, td {
+        padding: 4px;
+    }
+    .table_main_heading {
+        font-size: 16px;
+        padding: 4px;
+    }
+    .table_sub_heading {
+        padding: 4px;
+        font-size: 10px;
+    }
+    .contact_header_caption{
+        font-size: 10px;
+    }
+    .contact_address_details {
+        font-size: 8px;
+    }
+    .footer_text{
+        text-align: center;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .course{
+        font-size: 14px;
+    }
+    .tg{
+        font-size:14px;
+    }
+} 
